@@ -1,0 +1,5 @@
+2014-08-16 23:22:21		admin_action_updateConnection failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mewsmobi_mews.DB_TABLE_PENDING' doesn't exist
+2014-08-16 23:22:21		admin_action_updateConnection failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mewsmobi_mews.DB_TABLE_PENDING' doesn't exist
+2014-08-16 23:28:14		admin_action_updateConnection failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mewsmobi_mews.DB_TABLE_PENDING' doesn't exist
+2014-08-16 23:28:14		admin_action_updateConnection failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mewsmobi_mews.DB_TABLE_PENDING' doesn't exist
+2014-08-16 23:28:14		admin_action_updateConnection failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mewsmobi_mews.DB_TABLE_PENDING' doesn't exist

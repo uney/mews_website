@@ -1,0 +1,39 @@
+2014-08-29 12:13:18		get_news_map: Get lat = 22.424804656668712
+2014-08-29 12:13:18		get_news_map: Get lng = 114.21171605587006
+2014-08-29 12:13:18		get_news_map: Get mysql = SELECT *, ( 3959 * acos( cos( radians(22.424804656668712) ) * cos( radians( db_table_news.news_lat ) ) * cos( radians( db_table_news.news_lng ) - radians(114.21171605587006) ) + sin( radians(22.424804656668712) ) * sin( radians( db_table_news.news_lat ) ) ) ) AS distance FROM db_table_news WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 50 DAY) and db_table_news.news_lat between 20.963935091451 AND 20.963935091451and db_table_news.news_lng between 112.63133999006 AND 112.63133999006 having distance < 100.8 ORDER BY distance ASC limit 15
+2014-08-29 12:24:32		get_news_map: Get lat = 22.424824491731126
+2014-08-29 12:24:32		get_news_map: Get lng = 114.21185553073883
+2014-08-29 12:24:32		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.424824491731126) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians() ) 
+    + sin( radians(22.424824491731126) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE
+    `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.398737535209 and 22.450911448253
+    and db_table_news.news_lng between 114.18363452553 and 114.24007653595
+    having `distance` < 1.8;
+2014-08-29 12:24:32		get_news_map : exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1582 Incorrect parameter count in the call to native function 'radians'' in /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php:68
+Stack trace:
+#0 /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php(68): PDOStatement->execute()
+#1 {main}
+2014-08-29 12:24:35		get_news_map: Get lat = 22.424824491731126
+2014-08-29 12:24:35		get_news_map: Get lng = 114.2116516828537
+2014-08-29 12:24:35		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.424824491731126) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians() ) 
+    + sin( radians(22.424824491731126) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE
+    `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.398737535209 and 22.450911448253
+    and db_table_news.news_lng between 114.18343067765 and 114.23987268806
+    having `distance` < 1.8;
+2014-08-29 12:24:35		get_news_map : exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1582 Incorrect parameter count in the call to native function 'radians'' in /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php:68
+Stack trace:
+#0 /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php(68): PDOStatement->execute()
+#1 {main}

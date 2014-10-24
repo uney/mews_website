@@ -1,0 +1,87 @@
+2014-09-01 00:00:22		get_news_map: Get lat = 22.296561472217107
+2014-09-01 00:00:22		get_news_map: Get lng = 114.17695999145508
+2014-09-01 00:00:22		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.296561472217107) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17695999145508) ) 
+    + sin( radians(22.296561472217107) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.270474515695 and 22.322648428739
+    and db_table_news.news_lng between 114.14876496283 and 114.20515502008
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-01 00:00:22		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-01 00:00:22		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-01 00:00:22		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-01 00:00:22		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-01 00:00:22		get_news_map : 撐佔中者踩場爆衝突
+2014-09-01 00:00:22		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-01 00:00:22		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-01 00:00:22		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-01 00:00:22		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-01 00:00:29		get_news_map: Get lat = 22.301961475084507
+2014-09-01 00:00:29		get_news_map: Get lng = 114.17524337768555
+2014-09-01 00:00:29		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.301961475084507) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17524337768555) ) 
+    + sin( radians(22.301961475084507) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_type` =news_crime AND `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.275874518563 and 22.328048431606
+    and db_table_news.news_lng between 114.14704725923 and 114.20343949614
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-01 00:00:29		get_news_map : exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'news_crime' in 'where clause'' in /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php:63
+Stack trace:
+#0 /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php(63): PDOStatement->execute()
+#1 {main}
+2014-09-01 00:00:29		get_news_map : exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'news_crime' in 'where clause'' in /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php:108
+Stack trace:
+#0 /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php(108): PDOStatement->execute()
+#1 {main}
+2014-09-01 00:02:26		get_news_map: Get lat = 22.2976732545756
+2014-09-01 00:02:26		get_news_map: Get lng = 114.17352676391602
+2014-09-01 00:02:26		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.2976732545756) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17352676391602) ) 
+    + sin( radians(22.2976732545756) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_type` = 'news_crime'' AND `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.271586298054 and 22.323760211097
+    and db_table_news.news_lng between 114.14533151094 and 114.2017220169
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-01 00:02:26		get_news_map : exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''news_crime'' AND `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+ ' at line 8' in /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php:63
+Stack trace:
+#0 /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php(63): PDOStatement->execute()
+#1 {main}
+2014-09-01 00:02:26		get_news_map : exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''news_crime'' AND `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+ ' at line 8' in /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php:108
+Stack trace:
+#0 /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php(108): PDOStatement->execute()
+#1 {main}
+2014-09-01 00:02:30		get_news_map : exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''news_accident'' AND `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) an' at line 8' in /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php:108
+Stack trace:
+#0 /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php(108): PDOStatement->execute()
+#1 {main}
+2014-09-01 00:02:30		get_news_map: Get lat = 22.299896792751927
+2014-09-01 00:02:30		get_news_map: Get lng = 114.16580200195312
+2014-09-01 00:02:30		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.299896792751927) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.16580200195312) ) 
+    + sin( radians(22.299896792751927) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_type` = 'news_accident'' AND `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.27380983623 and 22.325983749274
+    and db_table_news.news_lng between 114.13760630023 and 114.19399770367
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-01 00:02:30		get_news_map : exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''news_accident'' AND `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) an' at line 8' in /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php:63
+Stack trace:
+#0 /home6/mewsmobi/public_html/backend_php/ajax/get_news_map.php(63): PDOStatement->execute()
+#1 {main}

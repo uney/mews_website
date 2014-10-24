@@ -1,0 +1,903 @@
+2014-09-03 00:40:43		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=66'>請先登入!</a>
+2014-09-03 00:44:14		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=36'>請先登入!</a>
+2014-09-03 01:19:26		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=25'>請先登入!</a>
+2014-09-03 01:26:14		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=74'>請先登入!</a>
+2014-09-03 01:26:14		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=65'>請先登入!</a>
+2014-09-03 01:26:14		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=73'>請先登入!</a>
+2014-09-03 01:26:14		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=43'>請先登入!</a>
+2014-09-03 01:26:14		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=61'>請先登入!</a>
+2014-09-03 01:26:14		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=41'>請先登入!</a>
+2014-09-03 01:35:08		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=65'>請先登入!</a>
+2014-09-03 02:32:09		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=23'>請先登入!</a>
+2014-09-03 03:30:54		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=20'>請先登入!</a>
+2014-09-03 04:19:35		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=36'>請先登入!</a>
+2014-09-03 04:22:48		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=24'>請先登入!</a>
+2014-09-03 04:36:30		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=58'>請先登入!</a>
+2014-09-03 05:08:15		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=66'>請先登入!</a>
+2014-09-03 06:05:36		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=65'>請先登入!</a>
+2014-09-03 06:46:37		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=29'>請先登入!</a>
+2014-09-03 07:14:03		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=25'>請先登入!</a>
+2014-09-03 07:29:57		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=36'>請先登入!</a>
+2014-09-03 08:39:48		get_news_map: Get lat = 22.29735560337589
+2014-09-03 08:39:48		get_news_map: Get lng = 114.17404174804688
+2014-09-03 08:39:48		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.29735560337589) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17404174804688) ) 
+    + sin( radians(22.29735560337589) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.271268646854 and 22.323442559898
+    and db_table_news.news_lng between 114.14584655917 and 114.20223693692
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 08:39:48		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 08:39:48		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 08:39:48		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 08:39:48		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 08:39:48		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 08:39:48		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 08:39:48		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 08:39:48		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 08:39:48		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 08:42:44		get_news_map: Get lat = 22.303073214469702
+2014-09-03 08:42:44		get_news_map: Get lng = 114.17713165283203
+2014-09-03 08:42:44		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.303073214469702) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17713165283203) ) 
+    + sin( radians(22.303073214469702) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.276986257948 and 22.329160170991
+    and db_table_news.news_lng between 114.14893530996 and 114.2053279957
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 08:42:44		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 08:42:44		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 08:42:44		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 08:42:44		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 08:42:44		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 08:42:44		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 08:42:44		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 08:42:44		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 08:50:33		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=36'>請先登入!</a>
+2014-09-03 08:51:17		get_news_map: Get lat = 42.338905499999996
+2014-09-03 08:51:17		get_news_map: Get lng = -71.08754520000002
+2014-09-03 08:51:17		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(42.338905499999996) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(-71.08754520000002) ) 
+    + sin( radians(42.338905499999996) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 42.312818543478 and 42.364992456522
+    and db_table_news.news_lng between -71.122837240862 and -71.052253159138
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 08:52:45		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=25'>請先登入!</a>
+2014-09-03 08:52:45		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=36'>請先登入!</a>
+2014-09-03 08:59:09		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=77'>請先登入!</a>
+2014-09-03 09:07:12		get_news_map: Get lat = 42.3391575
+2014-09-03 09:07:12		get_news_map: Get lng = -71.08766059999999
+2014-09-03 09:07:12		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(42.3391575) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(-71.08766059999999) ) 
+    + sin( radians(42.3391575) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 42.313070543478 and 42.365244456522
+    and db_table_news.news_lng between -71.122952782297 and -71.052368417703
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 09:21:00		get_news_map: Get lat = 42.3389382
+2014-09-03 09:21:00		get_news_map: Get lng = -71.08751280000001
+2014-09-03 09:21:00		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(42.3389382) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(-71.08751280000001) ) 
+    + sin( radians(42.3389382) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 42.312851243478 and 42.365025156522
+    and db_table_news.news_lng between -71.122804859215 and -71.052220740785
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 09:24:45		get_news_map: Get lat = 42.3390652
+2014-09-03 09:24:45		get_news_map: Get lng = -71.08752299999998
+2014-09-03 09:24:45		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(42.3390652) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(-71.08752299999998) ) 
+    + sin( radians(42.3390652) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 42.312978243478 and 42.365152156522
+    and db_table_news.news_lng between -71.122815130494 and -71.052230869506
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 10:07:49		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=66'>請先登入!</a>
+2014-09-03 10:11:50		get_news_map: Get lat = 42.3390165
+2014-09-03 10:11:50		get_news_map: Get lng = -71.08796749999999
+2014-09-03 10:11:50		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(42.3390165) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(-71.08796749999999) ) 
+    + sin( radians(42.3390165) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 42.312929543478 and 42.365103456522
+    and db_table_news.news_lng between -71.123259603161 and -71.052675396839
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 10:13:12		get_news_map: Get lat = 42.3390019
+2014-09-03 10:13:12		get_news_map: Get lng = -71.08799349999998
+2014-09-03 10:13:12		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(42.3390019) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(-71.08799349999998) ) 
+    + sin( radians(42.3390019) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 42.312914943478 and 42.365088856522
+    and db_table_news.news_lng between -71.123285594966 and -71.052701405034
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 10:13:50		get_news_map: Get lat = 42.3389854
+2014-09-03 10:13:50		get_news_map: Get lng = -71.08798489999998
+2014-09-03 10:13:50		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(42.3389854) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(-71.08798489999998) ) 
+    + sin( radians(42.3389854) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 42.312898443478 and 42.365072356522
+    and db_table_news.news_lng between -71.123276985706 and -71.052692814294
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 10:42:48		get_news_map: Get lat = 42.3385801
+2014-09-03 10:42:48		get_news_map: Get lng = -71.08834150000001
+2014-09-03 10:42:48		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(42.3385801) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(-71.08834150000001) ) 
+    + sin( radians(42.3385801) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 42.312493143478 and 42.364667056522
+    and db_table_news.news_lng between -71.123633358233 and -71.053049641767
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 10:43:42		get_news_map: Get lat = 42.338615399999995
+2014-09-03 10:43:42		get_news_map: Get lng = -71.08841430000001
+2014-09-03 10:43:42		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(42.338615399999995) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(-71.08841430000001) ) 
+    + sin( radians(42.338615399999995) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 42.312528443478 and 42.364702356522
+    and db_table_news.news_lng between -71.123706178045 and -71.053122421955
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 10:43:54		get_news_map: Get lat = 22.298626203841597
+2014-09-03 10:43:54		get_news_map: Get lng = 114.17387008666992
+2014-09-03 10:43:54		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.298626203841597) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17387008666992) ) 
+    + sin( radians(22.298626203841597) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.27253924732 and 22.324713160363
+    and db_table_news.news_lng between 114.14567464138 and 114.20206553196
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 10:43:54		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 10:43:54		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 10:43:54		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 10:43:54		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 10:43:54		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 10:43:54		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 10:43:54		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 10:43:54		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 10:43:54		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 10:45:44		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=25'>請先登入!</a>
+2014-09-03 10:45:57		get_news_map: Get lat = 22.29957914660768
+2014-09-03 10:45:57		get_news_map: Get lng = 114.1783332824707
+2014-09-03 10:45:57		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.29957914660768) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.1783332824707) ) 
+    + sin( radians(22.29957914660768) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.273492190086 and 22.325666103129
+    and db_table_news.news_lng between 114.15013764486 and 114.20652892008
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 10:45:57		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 10:45:57		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 10:45:57		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 10:45:57		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 10:45:57		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 10:45:57		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 10:45:57		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 10:45:57		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 10:46:33		get_news_map: Get lat = 22.299896792751927
+2014-09-03 10:46:33		get_news_map: Get lng = 114.17163848876953
+2014-09-03 10:46:33		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.299896792751927) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17163848876953) ) 
+    + sin( radians(22.299896792751927) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.27380983623 and 22.325983749274
+    and db_table_news.news_lng between 114.14344278705 and 114.19983419049
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 10:46:33		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 10:46:33		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 10:46:33		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 10:46:33		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 10:46:33		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 10:46:33		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 10:46:33		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 10:46:33		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 10:46:33		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 10:47:05		get_news_map: Get lat = 22.3011673701064
+2014-09-03 10:47:05		get_news_map: Get lng = 114.17747497558594
+2014-09-03 10:47:05		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.3011673701064) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17747497558594) ) 
+    + sin( radians(22.3011673701064) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.275080413585 and 22.327254326628
+    and db_table_news.news_lng between 114.14927901742 and 114.20567093375
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 10:47:05		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 10:47:05		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 10:47:05		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 10:47:05		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 10:47:05		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 10:47:05		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 10:47:05		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 10:47:05		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 10:50:23		get_news_map: Get lat = 22.298626203841597
+2014-09-03 10:50:23		get_news_map: Get lng = 114.1757583618164
+2014-09-03 10:50:23		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.298626203841597) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.1757583618164) ) 
+    + sin( radians(22.298626203841597) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.27253924732 and 22.324713160363
+    and db_table_news.news_lng between 114.14756291652 and 114.20395380711
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 10:50:23		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 10:50:23		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 10:50:23		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 10:50:23		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 10:50:23		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 10:50:23		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 10:50:23		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 10:50:23		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 10:50:23		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 11:10:20		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=10'>請先登入!</a>
+2014-09-03 11:10:28		get_news_map: Get lat = 22.29942032326473
+2014-09-03 11:10:28		get_news_map: Get lng = 114.17644500732422
+2014-09-03 11:10:28		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.29942032326473) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17644500732422) ) 
+    + sin( radians(22.29942032326473) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.273333366743 and 22.325507279786
+    and db_table_news.news_lng between 114.14824940177 and 114.20464061288
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:10:28		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 11:10:28		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 11:10:28		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 11:10:28		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 11:10:28		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 11:10:28		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 11:10:28		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 11:10:28		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 11:10:28		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 11:11:06		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=25'>請先登入!</a>
+2014-09-03 11:11:56		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=25'>請先登入!</a>
+2014-09-03 11:13:26		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=25'>請先登入!</a>
+2014-09-03 11:14:08		get_news_map: Get lat = 22.297514429066016
+2014-09-03 11:14:08		get_news_map: Get lng = 114.17490005493164
+2014-09-03 11:14:08		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.297514429066016) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17490005493164) ) 
+    + sin( radians(22.297514429066016) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.271427472544 and 22.323601385588
+    and db_table_news.news_lng between 114.146704834 and 114.20309527586
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:14:08		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 11:14:08		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 11:14:08		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 11:14:08		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 11:14:08		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 11:14:08		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 11:14:08		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 11:14:08		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 11:14:08		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 11:15:56		ajax/submit_voteCheck vote action: news_upvote
+2014-09-03 11:15:56		ajax/submit_voteCheck vote type: news
+2014-09-03 11:15:56		ajax/submit_voteCheck vote news_comment_id: 25
+2014-09-03 11:15:56		ajax/submit_voteCheck vote no_of_vote: 1
+2014-09-03 11:15:56		ajax/submit_voteCheck vote vote_receiver_id: 6d9a2c6b00b00b3433681b753f0f7431
+2014-09-03 11:15:56		ajax/submit_voteCheck vote vote_giver_id: bd2aa14658d6a7d3da773564e061314a
+2014-09-03 11:16:37		get_news_map: Get lat = 22.297196777505224
+2014-09-03 11:16:37		get_news_map: Get lng = 114.17695999145508
+2014-09-03 11:16:37		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.297196777505224) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17695999145508) ) 
+    + sin( radians(22.297196777505224) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.271109820983 and 22.323283734027
+    and db_table_news.news_lng between 114.14876483463 and 114.20515514828
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:16:37		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 11:16:37		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 11:16:37		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 11:16:37		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 11:16:37		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 11:16:37		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 11:16:37		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 11:16:37		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 11:16:37		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 11:19:05		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=65'>請先登入!</a>
+2014-09-03 11:20:20		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=65'>請先登入!</a>
+2014-09-03 11:20:54		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=25'>請先登入!</a>
+2014-09-03 11:21:10		get_news_map: Get lat = 22.29386139251719
+2014-09-03 11:21:10		get_news_map: Get lng = 114.17524337768555
+2014-09-03 11:21:10		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.29386139251719) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17524337768555) ) 
+    + sin( radians(22.29386139251719) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.267774435995 and 22.319948349039
+    and db_table_news.news_lng between 114.14704889386 and 114.20343786151
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:21:10		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 11:21:10		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 11:21:10		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 11:21:10		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 11:21:10		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 11:21:10		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 11:21:10		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 11:21:10		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 11:23:31		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=25'>請先登入!</a>
+2014-09-03 11:23:42		get_news_map: Get lat = 22.296402645443735
+2014-09-03 11:23:42		get_news_map: Get lng = 114.1757583618164
+2014-09-03 11:23:42		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.296402645443735) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.1757583618164) ) 
+    + sin( radians(22.296402645443735) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.270315688922 and 22.322489601965
+    and db_table_news.news_lng between 114.14756336524 and 114.20395335839
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:23:42		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 11:23:42		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 11:23:42		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 11:23:42		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 11:23:42		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 11:23:42		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 11:23:42		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 11:23:42		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 11:23:42		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 11:39:11		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=25'>請先登入!</a>
+2014-09-03 11:40:24		get_news_map: Get lat = 22.295449681012194
+2014-09-03 11:40:24		get_news_map: Get lng = 114.17335510253906
+2014-09-03 11:40:24		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.295449681012194) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17335510253906) ) 
+    + sin( radians(22.295449681012194) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.26936272449 and 22.321536637534
+    and db_table_news.news_lng between 114.14516029825 and 114.20154990683
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:40:24		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 11:40:24		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 11:40:24		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 11:40:24		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 11:40:24		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 11:40:24		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 11:40:24		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 11:40:24		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 11:40:24		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 11:42:06		get_news_map: Get lat = 22.297514429066016
+2014-09-03 11:42:06		get_news_map: Get lng = 114.2387580871582
+2014-09-03 11:42:06		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.297514429066016) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.2387580871582) ) 
+    + sin( radians(22.297514429066016) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.271427472544 and 22.323601385588
+    and db_table_news.news_lng between 114.21056286623 and 114.26695330809
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:42:06		get_news_map : 康山居二市場 呎價樓價齊破頂
+2014-09-03 11:42:16		get_news_map: Get lat = 22.295290852975075
+2014-09-03 11:42:16		get_news_map: Get lng = 114.23515319824219
+2014-09-03 11:42:16		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.295290852975075) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.23515319824219) ) 
+    + sin( radians(22.295290852975075) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.269203896453 and 22.321377809497
+    and db_table_news.news_lng between 114.206958426 and 114.26334797048
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:42:16		get_news_map : 康山居二市場 呎價樓價齊破頂
+2014-09-03 11:42:20		get_news_map: Get lat = 22.301326191463158
+2014-09-03 11:42:20		get_news_map: Get lng = 114.2329216003418
+2014-09-03 11:42:20		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.301326191463158) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.2329216003418) ) 
+    + sin( radians(22.301326191463158) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.275239234941 and 22.327413147985
+    and db_table_news.news_lng between 114.20472561012 and 114.26111759057
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:42:20		get_news_map : 康山居二市場 呎價樓價齊破頂
+2014-09-03 11:42:25		get_news_map: Get lat = 22.30370849014564
+2014-09-03 11:42:25		get_news_map: Get lng = 114.22897338867188
+2014-09-03 11:42:25		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.30370849014564) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.22897338867188) ) 
+    + sin( radians(22.30370849014564) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.277621533624 and 22.329795446667
+    and db_table_news.news_lng between 114.20077691756 and 114.25716985978
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:42:25		get_news_map : 康山居二市場 呎價樓價齊破頂
+2014-09-03 11:42:32		get_news_map: Get lat = 22.30339085266883
+2014-09-03 11:42:32		get_news_map: Get lng = 114.25111770629883
+2014-09-03 11:42:32		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.30339085266883) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.25111770629883) ) 
+    + sin( radians(22.30339085266883) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.277303896147 and 22.329477809191
+    and db_table_news.news_lng between 114.22292129931 and 114.27931411329
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:42:36		get_news_map: Get lat = 22.305931932257298
+2014-09-03 11:42:36		get_news_map: Get lng = 114.17747497558594
+2014-09-03 11:42:36		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.305931932257298) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17747497558594) ) 
+    + sin( radians(22.305931932257298) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.279844975736 and 22.332018888779
+    and db_table_news.news_lng between 114.1492780556 and 114.20567189557
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:42:36		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 11:42:36		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 11:42:36		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 11:42:36		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 11:42:36		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 11:42:36		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 11:45:16		get_news_map: Get lat = 22.29687912522224
+2014-09-03 11:45:16		get_news_map: Get lng = 114.17198181152344
+2014-09-03 11:45:16		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.29687912522224) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17198181152344) ) 
+    + sin( radians(22.29687912522224) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.270792168701 and 22.322966081744
+    and db_table_news.news_lng between 114.1437867188 and 114.20017690425
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:45:16		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 11:45:16		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 11:45:16		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 11:45:16		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 11:45:16		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 11:45:16		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 11:45:16		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 11:45:16		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 11:45:16		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 11:45:49		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=69'>請先登入!</a>
+2014-09-03 11:46:00		get_news_map: Get lat = 22.29687912522224
+2014-09-03 11:46:00		get_news_map: Get lng = 114.17198181152344
+2014-09-03 11:46:00		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.29687912522224) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17198181152344) ) 
+    + sin( radians(22.29687912522224) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_type` = 'news_politics' AND `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.270792168701 and 22.322966081744
+    and db_table_news.news_lng between 114.1437867188 and 114.20017690425
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:46:00		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 11:46:29		get_news_map: Get lat = 22.296480389058566
+2014-09-03 11:46:29		get_news_map: Get lng = 114.17241070722639
+2014-09-03 11:46:29		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.296480389058566) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17241070722639) ) 
+    + sin( radians(22.296480389058566) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.270393432537 and 22.32256734558
+    and db_table_news.news_lng between 114.14421569496 and 114.20060571949
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 11:46:29		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 11:46:29		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 11:46:29		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 11:46:29		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 11:46:29		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 11:46:29		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 11:46:29		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 11:46:29		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 11:46:29		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 12:00:09		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=25'>請先登入!</a>
+2014-09-03 12:56:00		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=25'>請先登入!</a>
+2014-09-03 12:58:48		facebook_login Check ROW COUNT: 0
+2014-09-03 12:59:14		upload_news_backend, user_pic: 
+2014-09-03 12:59:14		upload_news_backend, user_pic_type: 
+2014-09-03 12:59:14		upload_news_backend, is not upload new file: 
+2014-09-03 13:05:51		get_news_map: Get lat = 22.28591967927953
+2014-09-03 13:05:51		get_news_map: Get lng = 114.1893196105957
+2014-09-03 13:05:51		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.28591967927953) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.1893196105957) ) 
+    + sin( radians(22.28591967927953) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.259832722758 and 22.312006635801
+    and db_table_news.news_lng between 114.16112672871 and 114.21751249248
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:05:51		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 13:05:51		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 13:05:51		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 13:05:51		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 13:05:51		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 13:05:51		get_news_map : 康山居二市場 呎價樓價齊破頂
+2014-09-03 13:13:31		ajax/submit_voteCheck vote action: comment_upvote
+2014-09-03 13:13:31		ajax/submit_voteCheck vote type: comment
+2014-09-03 13:13:31		ajax/submit_voteCheck vote news_comment_id: 6
+2014-09-03 13:13:31		ajax/submit_voteCheck vote no_of_vote: 1
+2014-09-03 13:13:31		ajax/submit_voteCheck vote vote_receiver_id: 99af67e4496e4c5406c3889a9d69d533
+2014-09-03 13:13:31		ajax/submit_voteCheck vote vote_giver_id: 013d9957f7052c0cc69f5fbfb0e1867c
+2014-09-03 13:13:38		ajax/submit_voteCheck vote action: news_upvote
+2014-09-03 13:13:38		ajax/submit_voteCheck vote type: news
+2014-09-03 13:13:38		ajax/submit_voteCheck vote news_comment_id: 81
+2014-09-03 13:13:38		ajax/submit_voteCheck vote no_of_vote: 1
+2014-09-03 13:13:38		ajax/submit_voteCheck vote vote_receiver_id: 99af67e4496e4c5406c3889a9d69d533
+2014-09-03 13:13:38		ajax/submit_voteCheck vote vote_giver_id: 013d9957f7052c0cc69f5fbfb0e1867c
+2014-09-03 13:13:42		ajax/submit_voteCheck vote action: news_upvote
+2014-09-03 13:13:42		ajax/submit_voteCheck vote type: news
+2014-09-03 13:13:42		ajax/submit_voteCheck vote news_comment_id: 81
+2014-09-03 13:13:42		ajax/submit_voteCheck vote no_of_vote: 2
+2014-09-03 13:13:42		ajax/submit_voteCheck vote vote_receiver_id: 99af67e4496e4c5406c3889a9d69d533
+2014-09-03 13:13:42		ajax/submit_voteCheck vote vote_giver_id: 013d9957f7052c0cc69f5fbfb0e1867c
+2014-09-03 13:13:55		ajax/submit_voteCheck vote action: news_downvote
+2014-09-03 13:13:55		ajax/submit_voteCheck vote type: news
+2014-09-03 13:13:55		ajax/submit_voteCheck vote news_comment_id: 81
+2014-09-03 13:13:55		ajax/submit_voteCheck vote no_of_vote: 1
+2014-09-03 13:13:55		ajax/submit_voteCheck vote vote_receiver_id: 99af67e4496e4c5406c3889a9d69d533
+2014-09-03 13:13:55		ajax/submit_voteCheck vote vote_giver_id: 013d9957f7052c0cc69f5fbfb0e1867c
+2014-09-03 13:14:29		ajax/submit_voteCheck vote action: news_upvote
+2014-09-03 13:14:29		ajax/submit_voteCheck vote type: news
+2014-09-03 13:14:29		ajax/submit_voteCheck vote news_comment_id: 50
+2014-09-03 13:14:29		ajax/submit_voteCheck vote no_of_vote: 1
+2014-09-03 13:14:29		ajax/submit_voteCheck vote vote_receiver_id: bd2aa14658d6a7d3da773564e061314a
+2014-09-03 13:14:29		ajax/submit_voteCheck vote vote_giver_id: 013d9957f7052c0cc69f5fbfb0e1867c
+2014-09-03 13:16:50		get_news_map: Get lat = 22.297196777505224
+2014-09-03 13:16:50		get_news_map: Get lng = 114.17695999145508
+2014-09-03 13:16:50		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.297196777505224) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17695999145508) ) 
+    + sin( radians(22.297196777505224) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_type` = 'news_business' AND `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.271109820983 and 22.323283734027
+    and db_table_news.news_lng between 114.14876483463 and 114.20515514828
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:17:04		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=50'>請先登入!</a>
+2014-09-03 13:17:15		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=50'>請先登入!</a>
+2014-09-03 13:17:30		get_news_map: Get lat = 22.26876403907398
+2014-09-03 13:17:30		get_news_map: Get lng = 114.1889762878418
+2014-09-03 13:17:30		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.26876403907398) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.1889762878418) ) 
+    + sin( radians(22.26876403907398) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.242677082552 and 22.294850995596
+    and db_table_news.news_lng between 114.16078686399 and 114.21716571169
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:17:30		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 13:17:30		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 13:17:30		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 13:17:30		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 13:17:36		get_news_map: Get lat = 22.258596740975715
+2014-09-03 13:17:36		get_news_map: Get lng = 114.16391372680664
+2014-09-03 13:17:36		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.258596740975715) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.16391372680664) ) 
+    + sin( radians(22.258596740975715) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.232509784454 and 22.284683697497
+    and db_table_news.news_lng between 114.13572635077 and 114.19210110284
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:17:36		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 13:17:36		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 13:17:36		get_news_map : 內地旅客浮屍瀑布灣
+2014-09-03 13:17:49		get_news_map: Get lat = 22.32800561523044
+2014-09-03 13:17:49		get_news_map: Get lng = 114.20854568481445
+2014-09-03 13:17:49		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.32800561523044) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.20854568481445) ) 
+    + sin( radians(22.32800561523044) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.301918658709 and 22.354092571752
+    and db_table_news.news_lng between 114.18034430543 and 114.23674706419
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:17:49		get_news_map : 15歲少年被斬手腳
+2014-09-03 13:17:49		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 13:18:23		get_news_map: Get lat = 22.450062311921712
+2014-09-03 13:18:23		get_news_map: Get lng = 114.17112350463867
+2014-09-03 13:18:23		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.450062311921712) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17112350463867) ) 
+    + sin( radians(22.450062311921712) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.4239753554 and 22.476149268443
+    and db_table_news.news_lng between 114.14289736582 and 114.19934964346
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:18:29		get_news_map: Get lat = 22.382301531862158
+2014-09-03 13:18:29		get_news_map: Get lng = 114.1973876953125
+2014-09-03 13:18:29		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.382301531862158) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.1973876953125) ) 
+    + sin( radians(22.382301531862158) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.35621457534 and 22.408388488384
+    and db_table_news.news_lng between 114.16917532308 and 114.22560006755
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:18:29		get_news_map : 16歲尖子 斬女同學後跳樓亡
+2014-09-03 13:18:50		get_news_map: Get lat = 22.294496710081507
+2014-09-03 13:18:50		get_news_map: Get lng = 114.17387008666992
+2014-09-03 13:18:50		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.294496710081507) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17387008666992) ) 
+    + sin( radians(22.294496710081507) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.26840975356 and 22.320583666603
+    and db_table_news.news_lng between 114.14567547466 and 114.20206469868
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:18:50		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 13:18:50		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 13:18:50		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 13:18:50		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 13:18:50		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 13:18:50		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 13:18:50		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 13:18:50		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 13:18:52		get_news_map: Get lat = 22.29957914660768
+2014-09-03 13:18:52		get_news_map: Get lng = 114.16357040405273
+2014-09-03 13:18:52		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.29957914660768) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.16357040405273) ) 
+    + sin( radians(22.29957914660768) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.273492190086 and 22.325666103129
+    and db_table_news.news_lng between 114.13537476644 and 114.19176604167
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:18:52		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 13:18:52		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 13:18:52		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 13:18:52		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 13:18:52		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 13:18:52		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 13:18:52		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 13:18:52		get_news_map : 慘劇遺嬰仍危 羅便臣道又「塌樹」
+2014-09-03 13:18:52		get_news_map : 李卓人指會面顯示雙方分歧嚴重
+2014-09-03 13:18:52		get_news_map : 西環路陷漏煤氣貨車被困
+2014-09-03 13:19:05		get_news_map: Get lat = 22.3113315728684
+2014-09-03 13:19:05		get_news_map: Get lng = 114.1695785522461
+2014-09-03 13:19:05		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.3113315728684) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.1695785522461) ) 
+    + sin( radians(22.3113315728684) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.285244616347 and 22.33741852939
+    and db_table_news.news_lng between 114.14138054193 and 114.19777656257
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:19:05		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 13:19:05		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 13:19:05		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 13:19:05		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 13:19:05		get_news_map : 六旬婦疑橫過馬路捱撞
+2014-09-03 13:19:05		get_news_map : 失四迎客愛情鳥 茶餐廳懸紅千元
+2014-09-03 13:19:12		get_news_map: Get lat = 22.30926702905377
+2014-09-03 13:19:12		get_news_map: Get lng = 114.1647720336914
+2014-09-03 13:19:12		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.30926702905377) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.1647720336914) ) 
+    + sin( radians(22.30926702905377) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.283180072532 and 22.335353985576
+    and db_table_news.news_lng between 114.1365744403 and 114.19296962708
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:19:12		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 13:19:12		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 13:19:12		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 13:19:12		get_news_map : 六旬婦疑橫過馬路捱撞
+2014-09-03 13:19:12		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 13:19:17		get_news_map: Get lat = 22.306567194930622
+2014-09-03 13:19:17		get_news_map: Get lng = 114.1618537902832
+2014-09-03 13:19:17		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.306567194930622) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.1618537902832) ) 
+    + sin( radians(22.306567194930622) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.280480238409 and 22.332654151452
+    and db_table_news.news_lng between 114.13365674204 and 114.19005083853
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:19:17		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 13:19:17		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 13:19:17		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 13:19:17		get_news_map : 六旬婦疑橫過馬路捱撞
+2014-09-03 13:19:17		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 13:19:17		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 13:19:30		get_news_map: Get lat = 22.301008548569072
+2014-09-03 13:19:30		get_news_map: Get lng = 114.18228149414062
+2014-09-03 13:19:30		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.301008548569072) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.18228149414062) ) 
+    + sin( radians(22.301008548569072) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.274921592047 and 22.327095505091
+    and db_table_news.news_lng between 114.15408556803 and 114.21047742025
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:19:30		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 13:19:30		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 13:19:30		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 13:19:30		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 13:19:30		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 13:19:30		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 13:19:30		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 13:19:30		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 13:19:34		get_news_map: Get lat = 22.308949404219078
+2014-09-03 13:19:34		get_news_map: Get lng = 114.20974731445312
+2014-09-03 13:19:34		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.308949404219078) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.20974731445312) ) 
+    + sin( radians(22.308949404219078) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.282862447697 and 22.335036360741
+    and db_table_news.news_lng between 114.1815497852 and 114.23794484371
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:19:34		get_news_map : 15歲少年被斬手腳
+2014-09-03 13:19:34		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 13:19:34		get_news_map : 康山居二市場 呎價樓價齊破頂
+2014-09-03 13:20:12		upload_news_backend, user_pic: 
+2014-09-03 13:20:12		upload_news_backend, user_pic_type: 
+2014-09-03 13:20:12		upload_news_backend, is not upload new file: 
+2014-09-03 13:21:07		get_news_map: Get lat = 22.296084991355357
+2014-09-03 13:21:07		get_news_map: Get lng = 114.17232513427734
+2014-09-03 13:21:07		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.296084991355357) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17232513427734) ) 
+    + sin( radians(22.296084991355357) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.269998034834 and 22.322171947877
+    and db_table_news.news_lng between 114.1441302018 and 114.20052006676
+    having `distance` < 1.8 ORDER BY `distance` ASC limit 15
+2014-09-03 13:21:07		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-09-03 13:21:07		get_news_map : 15年執着沖出「金鴛鴦王」
+2014-09-03 13:21:07		get_news_map : 美酒派對狂歡少女沉泳池底
+2014-09-03 13:21:07		get_news_map : 蘇錦樑接受冰桶挑戰　中午添馬公園淋冰
+2014-09-03 13:21:07		get_news_map : 東華牙科女職員吞百萬公款囚21月
+2014-09-03 13:21:07		get_news_map : 撐佔中者踩場爆衝突
+2014-09-03 13:21:07		get_news_map : 佔中整死香港，堅決反佔中
+2014-09-03 13:21:07		get_news_map : 大廈半夜失火　夫棄醉妻逃生 消防員斥責：點可以丟低老婆
+2014-09-03 13:21:07		get_news_map : 沙中線土瓜灣站 掘出近代紅磚井
+2014-09-03 13:25:00		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=53'>請先登入!</a>
+2014-09-03 13:37:28		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=25'>請先登入!</a>
+2014-09-03 13:59:09		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=67'>請先登入!</a>
+2014-09-03 14:08:27		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=64'>請先登入!</a>
+2014-09-03 14:32:59		admin_action_updateConnection failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'msg_contect' in 'field list'
+2014-09-03 14:38:37		admin_action_updateConnection failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'msg_contect' in 'field list'
+2014-09-03 14:39:40		admin_action_updateConnection failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'msg_contect' in 'field list'
+2014-09-03 14:45:50		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=46'>請先登入!</a>
+2014-09-03 14:48:29		admin_action_updateConnection failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'msg_contect' in 'field list'

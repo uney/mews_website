@@ -1,0 +1,156 @@
+2014-08-30 01:17:39		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=36'>請先登入!</a>
+2014-08-30 02:35:27		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=29'>請先登入!</a>
+2014-08-30 03:13:19		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=58'>請先登入!</a>
+2014-08-30 03:16:31		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=75'>請先登入!</a>
+2014-08-30 05:21:19		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=66'>請先登入!</a>
+2014-08-30 06:08:30		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=1'>請先登入!</a>
+2014-08-30 06:33:01		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=65'>請先登入!</a>
+2014-08-30 07:08:01		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=43'>請先登入!</a>
+2014-08-30 07:40:17		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=67'>請先登入!</a>
+2014-08-30 07:45:30		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=29'>請先登入!</a>
+2014-08-30 08:07:35		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=25'>請先登入!</a>
+2014-08-30 08:52:53		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=71'>請先登入!</a>
+2014-08-30 08:53:04		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=68'>請先登入!</a>
+2014-08-30 09:46:11		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=48'>請先登入!</a>
+2014-08-30 09:46:28		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=36'>請先登入!</a>
+2014-08-30 10:57:42		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=69'>請先登入!</a>
+2014-08-30 10:57:45		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=81'>請先登入!</a>
+2014-08-30 11:22:29		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=75'>請先登入!</a>
+2014-08-30 11:39:25		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=64'>請先登入!</a>
+2014-08-30 11:47:11		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=61'>請先登入!</a>
+2014-08-30 11:48:15		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=59'>請先登入!</a>
+2014-08-30 11:50:06		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=11'>請先登入!</a>
+2014-08-30 11:50:31		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=46'>請先登入!</a>
+2014-08-30 11:51:45		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=15'>請先登入!</a>
+2014-08-30 11:52:02		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=82'>請先登入!</a>
+2014-08-30 11:52:46		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=16'>請先登入!</a>
+2014-08-30 12:32:05		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=31'>請先登入!</a>
+2014-08-30 12:43:25		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=70'>請先登入!</a>
+2014-08-30 13:17:50		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=14'>請先登入!</a>
+2014-08-30 13:42:55		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=76'>請先登入!</a>
+2014-08-30 14:14:17		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=60'>請先登入!</a>
+2014-08-30 15:03:15		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=79'>請先登入!</a>
+2014-08-30 15:22:21		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=73'>請先登入!</a>
+2014-08-30 15:23:04		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=55'>請先登入!</a>
+2014-08-30 15:27:33		get_news_map: Get lat = 22.300690904952706
+2014-08-30 15:27:33		get_news_map: Get lng = 114.17198181152344
+2014-08-30 15:27:33		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.300690904952706) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17198181152344) ) 
+    + sin( radians(22.300690904952706) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE
+    `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.289096702054 and 22.312285107851
+    and db_table_news.news_lng between 114.1594503173 and 114.18451330575
+    having `distance` < 0.8 ORDER BY `distance` ASC limit 15
+2014-08-30 15:27:33		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-08-30 15:40:42		get_news_map: Get lat = 22.297196777505224
+2014-08-30 15:40:42		get_news_map: Get lng = 114.18176651000977
+2014-08-30 15:40:42		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.297196777505224) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.18176651000977) ) 
+    + sin( radians(22.297196777505224) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE
+    `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.285602574607 and 22.308790980404
+    and db_table_news.news_lng between 114.1692353292 and 114.19429769082
+    having `distance` < 0.8 ORDER BY `distance` ASC limit 15
+2014-08-30 15:40:42		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-08-30 15:43:11		get_news_map: Get lat = 22.29926149974121
+2014-08-30 15:43:11		get_news_map: Get lng = 114.17490005493164
+2014-08-30 15:43:11		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.29926149974121) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17490005493164) ) 
+    + sin( radians(22.29926149974121) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE
+    `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.287667296843 and 22.31085570264
+    and db_table_news.news_lng between 114.16236868893 and 114.18743142093
+    having `distance` < 0.8 ORDER BY `distance` ASC limit 15
+2014-08-30 15:43:11		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-08-30 15:43:33		get_news_map: Get lat = 22.298626203841597
+2014-08-30 15:43:33		get_news_map: Get lng = 114.17455673217773
+2014-08-30 15:43:33		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.298626203841597) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17455673217773) ) 
+    + sin( radians(22.298626203841597) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE
+    `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.287032000943 and 22.31022040674
+    and db_table_news.news_lng between 114.16202542316 and 114.1870880412
+    having `distance` < 0.8 ORDER BY `distance` ASC limit 15
+2014-08-30 15:43:33		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-08-30 15:46:35		get_news_map: Get lat = 22.29878502808733
+2014-08-30 15:46:35		get_news_map: Get lng = 114.17198181152344
+2014-08-30 15:46:35		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.29878502808733) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17198181152344) ) 
+    + sin( radians(22.29878502808733) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE
+    `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.287190825189 and 22.310379230986
+    and db_table_news.news_lng between 114.15945048826 and 114.18451313479
+    having `distance` < 0.8 ORDER BY `distance` ASC limit 15
+2014-08-30 15:46:35		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-08-30 15:46:39		get_news_map: Get lat = 22.299102676037137
+2014-08-30 15:46:39		get_news_map: Get lng = 114.17850494384766
+2014-08-30 15:46:39		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.299102676037137) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17850494384766) ) 
+    + sin( radians(22.299102676037137) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE
+    `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.287508473139 and 22.310696878936
+    and db_table_news.news_lng between 114.16597359209 and 114.1910362956
+    having `distance` < 0.8 ORDER BY `distance` ASC limit 15
+2014-08-30 15:46:39		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-08-30 16:05:36		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=58'>請先登入!</a>
+2014-08-30 16:48:27		get_news_map: Get lat = 22.29735560337589
+2014-08-30 16:48:28		get_news_map: Get lng = 114.17524337768555
+2014-08-30 16:48:28		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.29735560337589) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17524337768555) ) 
+    + sin( radians(22.29735560337589) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE
+    `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.285761400477 and 22.308949806274
+    and db_table_news.news_lng between 114.16271218263 and 114.18777457274
+    having `distance` < 0.8 ORDER BY `distance` ASC limit 15
+2014-08-30 16:48:28		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-08-30 16:48:31		get_news_map: Get lat = 22.294814367780518
+2014-08-30 16:48:31		get_news_map: Get lng = 114.17455673217773
+2014-08-30 16:48:31		get_news_map: Get mysql = SELECT *,  
+    ( 3959 * acos( cos( radians(22.294814367780518) ) 
+    * cos( radians( db_table_news.news_lat ) ) 
+    * cos( radians( db_table_news.news_lng ) - radians(114.17455673217773) ) 
+    + sin( radians(22.294814367780518) ) 
+    * sin( radians( db_table_news.news_lat ) ) ) ) AS distance 
+    FROM db_table_news
+    WHERE
+    `news_post_date_time` > DATE_SUB(NOW(), INTERVAL 20 DAY) and
+    db_table_news.news_lat between 22.283220164882 and 22.306408570679
+    and db_table_news.news_lng between 114.16202576502 and 114.18708769933
+    having `distance` < 0.8 ORDER BY `distance` ASC limit 15
+2014-08-30 16:48:31		get_news_map : 立體星座圖 盲人體驗天文美景
+2014-08-30 16:54:25		header: <a href='http://www.mews.mobi/facebook_login.php?from=news_primary&news_id=23'>請先登入!</a>
